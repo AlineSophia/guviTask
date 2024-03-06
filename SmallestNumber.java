@@ -14,11 +14,11 @@ public class SmallestNumber {
 		System.out.print("Enter the Third Number");
 		int num3 = scanner.nextInt();
 		// Condition to check the smallest number
-		if (num1 <= num2 || num1 <= num3) {
+		if (num1 <= num2 && num1 <= num3) {
 			System.out.println("The smallest number is the First Number " + num1);
-		} else if (num2 <= num1 || num2 <= num3) {
+		} else if (num2 <= num1 && num2 <= num3) {
 			System.out.println("The smallest number is the Second Number " + num2);
-		} else if (num3 <= num1 || num3 <= num1) {
+		} else if (num3 <= num1 && num3 <= num1) {
 			System.out.println("The smallest number is the Third Number " + num3);
 		}
 	}
